@@ -52,19 +52,23 @@ Il progetto è attualmente nella fase **MVP (Minimum Viable Product)**, focalizz
 ## Prossimi Passi e Cosa Deve Essere Fatto
 
 ### Migrazione dei Contenuti
+
 - **Importare Tutte le Notizie**: Migrare tutti gli articoli di notizie dal sito originale con proper mapping degli URL
-- **Integrazione Blog**: Decidere la strategia per i contenuti del blog (mantenere WordPress o migrare sulla nuova piattaforma)
+- **Integrazione Blog**: Estrarre i contenuti da WordPress utilizzando WordPress API e visualizzarli con Nuxt/Vue, oppure implementare una strategia headless CMS
 - **Aggiornamenti delle Informazioni**: Rivedere e aggiornare i contenuti del sito web esistente per accuratezza e completezza
 
 ### Team e Gestione dei Contenuti
+
 - **Accesso del Team**: Configurare i member del team con accesso per gestire i contenuti
 - **Integrazione CMS Futura**: Pianificare l'integrazione con una soluzione CMS headless nella Fase 2 per consentire ai member del team non tecnici di gestire i contenuti senza richiedere conoscenze di markdown
 
 ### Fasi Future
+
 - Integrazione CMS headless per una gestione dei contenuti più semplice
-- Funzionalità di ricerca
-- Integrazione analytics
-- Filtraggio e organizzazione avanzati dei contenuti
+- Implementazione di strumenti SEO (Google Search Console, sitemap, schema markup)
+- Analytics e tracking (Google Analytics, cookie consent)
+- Protezione da spam con Cloudflare (Bot Management/Turnstile)
+- Integrazione mappe interattive (Mapbox o Google Maps con API keys appropriate)
 
 ---
 
